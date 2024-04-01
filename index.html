@@ -3,23 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MATHER NATURE</title>
     <link rel="stylesheet" href="./style/normalize.css" />
-    <link rel="stylesheet" href="./style/fonts.css" />
     <link rel="stylesheet" href="./style/style.css" />
-    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./css/style.min.css"> -->
   </head>
   <body>
+    <!-- HEADER START -->
+    <header class="header"></header>
+    <!-- HEADER END -->
+
+    <!-- MAIN START -->
     <main class="main">
       <section class="hero" id="main">
-        <img src="./img/" alt="">
+        <video
+          poster="./img/nature.jpg"
+          class="hero-bg-video"
+          loop
+          muted
+          autoplay
+          src=""
+        ></video>
         <div class="hero__container container">
-          <h1 class="hero__container-title">MATHER NATURE</h1>
+          <h1 class="hero__container-title">NATURE</h1>
           <ul class="hero__container-list">
-            <li class="hero__container-item">
-              <h2 class="hero__container-names">
-                <a href="#field" class="hero__container-link">FIELD</a>
-              </h2>
-            </li>
             <li class="hero-item">
               <h2 class="hero__container-names">
                 <a href="#forest" class="hero__container-link">FOREST</a>
@@ -38,27 +45,16 @@
           </ul>
         </div>
       </section>
-      <section id="field" class="field">
-        img
-        <div class="field__container container">
-          <h2 class="field__container-title">FIELD</h2>
-          <p class="field__container-description">
-            In agriculture, a field is an area of land, enclosed or otherwise,
-            used for agricultural purposes such as cultivating crops or as a
-            paddock or other enclosure for livestock. A field may also be an
-            area left to lie fallow or as arable land. Many farms have a field
-            border, usually composed of a strip of shrubs and vegetation, used
-            to provide food and cover necessary for the survival of wildlife. It
-            has been found that these borders may lead to an increased variety
-            of animals and plants in the area, but also in some cases a
-            decreased yield of crops.
-          </p>
-          </div>
-        </div>
-      </section>
 
       <section id="forest" class="forest">
-        <img src="" alt="">
+        <video
+          poster="./img/forest.png"
+          class="hero-bg-video"
+          loop
+          muted
+          autoplay
+          src=""
+        ></video>
         <div class="forest__container container">
           <h2 class="forest__container-title">FOREST</h2>
           <p class="forest__container-description">
@@ -76,8 +72,14 @@
       </section>
 
       <section id="mountain" class="mountain">
-        <img src="" alt="">
-        
+        <video
+          poster="./img/mountain.png"
+          class="hero-bg-video"
+          loop
+          muted
+          autoplay
+          src=""
+        ></video>
         <div class="mountain__container container">
           <h2 class="mountain__container-title">MOUNTAIN</h2>
           <p class="mountain__container-description">
@@ -97,7 +99,14 @@
       </section>
 
       <section id="the-sea" class="the-sea">
-        <img src="" alt="" />
+        <video
+          poster="./img/sea.jpg"
+          class="hero-bg-video"
+          loop
+          muted
+          autoplay
+          src=""
+        ></video>
         <div class="the-sea__container container">
           <h2 class="the-sea__container-title">THE SEA</h2>
           <p class="the-sea__container-description">
@@ -117,5 +126,10 @@
         </div>
       </section>
     </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer class="footer"></footer>
+    <!-- FOOTER END -->
   </body>
 </html>

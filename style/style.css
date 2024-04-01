@@ -7,10 +7,6 @@
   user-select: none;
 }
 
-*:focus {
-  border: none;
-}
-
 html {
   height: 100%;
   scroll-behavior: smooth;
@@ -107,31 +103,6 @@ main {
   outline: 2px dashed white;
   outline-offset: 5px;
   border: 2px solid white;
-}
-
-.field {
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-.field__container {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-  margin-bottom: 20px;
-}
-
-.field__container-title {
-  font-size: 60px;
-}
-.field__container-description {
-  font-size: 30px;
 }
 
 .btn-link {
